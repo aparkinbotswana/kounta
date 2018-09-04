@@ -1,0 +1,20 @@
+{
+  "name": "kounta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass src/stylesheets/style.scss build/stylesheets/style.css",
+    "watchsass": "sass --watch src/stylesheets/style.scss:build/stylesheets/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aparkinbotswana/kounta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aparkinbotswana/kounta/issues"
+  },
+  "homepage": "https://github.com/aparkinbotswana/kounta#readme"
+}
