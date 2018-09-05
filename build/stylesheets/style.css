@@ -9,15 +9,20 @@
   font-size: 14px;
   color: #4A4A4A;
   border-radius: 5px;
-  border: 2px solid #E3E3E3; }
+  border: 2px solid #E3E3E3;
+  font-weight: 100;
+  padding: 0px 20px;
+  margin: 10px 10px; }
 
 .content__bold {
-  font-weight: bold; }
+  font-weight: 900;
+  text-align: right; }
 
 .content--overdue {
   background-color: #AD3526;
   border-radius: 25px;
   color: white;
-  display: inline-block; }
+  display: inline-block;
+  padding: 5px 10px; }
 
 /*# sourceMappingURL=style.css.map */
