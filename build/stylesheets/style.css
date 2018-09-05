@@ -11,18 +11,25 @@
   border-radius: 5px;
   border: 2px solid #E3E3E3;
   font-weight: 100;
-  padding: 0px 20px;
   margin: 10px 10px; }
 
-.content__bold {
+.content__description {
+  padding: 0px 20px; }
+
+.content__description--bold {
   font-weight: 900;
   text-align: right; }
 
-.content--overdue {
+.content__overdue {
+  background-color: #F8F8F8;
+  text-align: right; }
+
+.content__overdue--text {
   background-color: #AD3526;
   border-radius: 25px;
   color: white;
   display: inline-block;
-  padding: 5px 10px; }
+  padding: 5px 10px;
+  margin-right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
