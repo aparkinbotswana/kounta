@@ -4,4 +4,20 @@
 .flex {
   flex: 1; }
 
+.content {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  color: #4A4A4A;
+  border-radius: 5px;
+  border: 2px solid #E3E3E3; }
+
+.content__bold {
+  font-weight: bold; }
+
+.content--overdue {
+  background-color: #AD3526;
+  border-radius: 25px;
+  color: white;
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
