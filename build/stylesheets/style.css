@@ -4,27 +4,31 @@
 .flex {
   flex: 1; }
 
-.content {
+.invoice {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #4A4A4A;
   border-radius: 5px;
   border: 2px solid #E3E3E3;
   font-weight: 100;
-  margin: 10px 10px; }
+  max-width: 350px;
+  margin: 10px auto; }
 
-.content__description {
+.invoice__content {
   padding: 0px 20px; }
 
-.content__description--bold {
+.invoice__detail {
+  margin: 10px 0; }
+
+.invoice--bold {
   font-weight: 900;
   text-align: right; }
 
-.content__overdue {
+.invoice__overdue {
   background-color: #F8F8F8;
   text-align: right; }
 
-.content__overdue--text {
+.invoice__overdue--text {
   background-color: #AD3526;
   border-radius: 25px;
   color: white;
@@ -38,6 +42,7 @@
     justify-content: center; }
 
   .individual-invoice {
-    flex-basis: 30%; } }
+    flex-basis: 30%;
+    margin: 10px 10px; } }
 
 /*# sourceMappingURL=style.css.map */
